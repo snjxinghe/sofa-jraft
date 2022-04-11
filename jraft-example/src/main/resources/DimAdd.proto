@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package jraft;
+
+option java_package = "com.alipay.sofa.jraft.example.counter.rpc";
+option java_outer_classname = "DimAdd";
+
+message DimAdd{
+  string dimName = 1;
+}
